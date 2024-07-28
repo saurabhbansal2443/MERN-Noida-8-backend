@@ -14,7 +14,7 @@ server.use(express.urlencoded({ extended: true })); // It will parse incoming da
 server.use(cookieParser()); //this is used to read the cookie
 server.use(
   cors({
-    origin: "http://localhost:5174",
+    origin: "http://localhost:5173",
     credentials: true,
   })
 );
